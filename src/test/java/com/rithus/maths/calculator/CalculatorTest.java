@@ -13,7 +13,11 @@ public class CalculatorTest {
 
         //New instance of the class is created and stored into the "calculator" variable
         Calculator calculator = new Calculator();
-        assertEquals(calculator.square(5), 25);
+        /*assertEquals method takes in the following parameters:
+        (expected, actual) Expected is what we expect, actual is the variable passed into the test*/
+
+        //SUT = System Under Test, calculator.square method is the SUT
+        assertEquals(25,calculator.square(5));
 
     }
 
